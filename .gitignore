@@ -1,0 +1,52 @@
+# Node dependencies (in all services)
+**/node_modules/
+
+# Build output
+**/build/
+**/dist/
+**/.next/
+**/.nuxt/
+**/.parcel-cache/
+**/.turbo/
+
+# Runtime files
+**/logs/
+**/*.log
+**/pids/
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Environment variables
+**/.env
+**/.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editor folders
+.vscode/
+.idea/
+**/.vscode/
+**/.idea/
+
+# Misc
+**/coverage/
+**/.nyc_output/
+**/.eslintcache
+**/.cache/
+**/.tmp/
+**/tmp/
+**/test-output/
+
+# OS-specific files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Optional lockfiles (uncomment if you don't want to track these)
+# **/package-lock.json
+# **/yarn.lock
+# **/pnpm-lock.yaml
